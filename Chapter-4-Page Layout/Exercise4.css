@@ -8,6 +8,7 @@ h1{
 h2{
     text-decoration: underline;
     font-size: 40px;
+    text-underline-offset: 10px;
 }
 header{
     background-color: #17072b;
@@ -58,6 +59,7 @@ footer{
 }
 section{
     margin-left: 25px;
+    margin-bottom: 10px;
 }
 ul.nspace{
     padding-left:0;
