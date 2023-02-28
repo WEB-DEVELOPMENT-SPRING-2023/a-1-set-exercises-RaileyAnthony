@@ -1,0 +1,20 @@
+body{
+    background-color: #ECF2FF ;
+    color: purple;
+    line-height: 1.6;
+}
+
+code{
+    color: rgb(177, 5, 177);
+    background-color:rgb(204, 184, 212);
+    padding: 2px;
+}
+h1 {
+    background-color: #E5D1FA;
+    color: purple;
+    padding: 10px 10px;
+}
+hr{
+    height: 3px;
+    background-color: rgb(163, 0, 163);
+}
