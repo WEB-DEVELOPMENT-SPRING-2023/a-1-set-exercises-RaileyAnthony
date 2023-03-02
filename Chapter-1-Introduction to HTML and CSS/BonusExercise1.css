@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-color: #e7ecf7 ;
+=======
+    background-color: #ECF2FF ;
+>>>>>>> 3532399d351a6d570aebad6cba09156466869297
     color: purple;
     line-height: 30px;
 }
@@ -23,7 +27,10 @@ table, th, td{
     border-radius: 5px;
     width: 600px;
     margin-left: 50px;
+<<<<<<< HEAD
     padding: 5px;
+=======
+>>>>>>> 3532399d351a6d570aebad6cba09156466869297
 }
 aside{
     float:right;
@@ -77,6 +84,11 @@ td.wspace{
 td.float{
     float:right;
 }
+<<<<<<< HEAD
 td.variant{
     font-variant: small-caps;
+=======
+tr.border{
+    border-color: orange;
+>>>>>>> 3532399d351a6d570aebad6cba09156466869297
 }
