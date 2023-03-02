@@ -1,0 +1,81 @@
+body{
+    background-color: #ECF2FF ;
+    color: purple;
+    line-height: 30px;
+}
+
+code{
+    color: rgb(177, 5, 177);
+    background-color:rgb(204, 184, 212);
+    padding: 2px;
+}
+h1 {
+    background-color: #E5D1FA;
+    color: purple;
+    padding: 10px 10px;
+}
+hr{
+    height: 3px;
+    background-color: rgb(163, 0, 163);
+}
+table, th, td{
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 600px;
+    margin-left: 50px;
+}
+aside{
+    float:right;
+    margin-right: 50px;
+}
+h2{
+    margin-left: 50px;
+}
+.comment{
+    color: green;
+}
+td.size{
+    font-size: 20px;
+}
+td.family{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+td.bgcolor{
+    background-color: lightpink;
+}
+td.color{
+    color: orangered;
+}
+td.style{
+    font-style: oblique;
+}
+td.weight{
+    font-weight: 900;
+}
+td.align{
+    text-align:center;
+}
+td.deco{
+    text-decoration:line-through;
+}
+td.padding{
+    padding: 10px;
+}
+td.indent{
+    text-indent: 5px;
+}
+td.shadow{
+    text-shadow: 2px 2px #E5D1FA;
+}
+td.lspace{
+    letter-spacing: 2px;
+}
+td.wspace{
+    word-spacing: 2px;
+}
+td.float{
+    float:right;
+}
+td.variant{
+    font-variant: small-caps;
+}
