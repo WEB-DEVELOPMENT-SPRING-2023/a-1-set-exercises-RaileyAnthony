@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    height: 100%;
+}
+li{
+    display: inline;
+    width: 60px;
+}
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #865DFF;
+    margin-right: 100px;
+}
+a:hover{
+    color: #E384FF;
+}
+nav{
+    background-color: #363357;
+    font-size: 28px;
+    text-align: center;
+    padding: 1px;
+}
+table, th, td{
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 500px;
+}
