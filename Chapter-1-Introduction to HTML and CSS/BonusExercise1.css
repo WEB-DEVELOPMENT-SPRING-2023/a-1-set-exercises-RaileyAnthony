@@ -1,5 +1,5 @@
 body{
-    background-color: #ECF2FF ;
+    background-color: #e7ecf7 ;
     color: purple;
     line-height: 30px;
 }
@@ -23,6 +23,7 @@ table, th, td{
     border-radius: 5px;
     width: 600px;
     margin-left: 50px;
+    padding: 5px;
 }
 aside{
     float:right;
