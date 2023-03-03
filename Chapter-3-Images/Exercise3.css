@@ -1,0 +1,16 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 30%;
+  }
+.filter1{
+    filter: grayscale(100%) brightness(80%) contrast(80%);
+}
+.filter2{
+    filter: sepia(100%) brightness(110%) contrast(100%);
+}
+.filter3{
+    filter: saturate(110%) brightness(95%) contrast(110%);
+}
