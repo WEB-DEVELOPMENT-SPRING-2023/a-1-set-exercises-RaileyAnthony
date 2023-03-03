@@ -80,3 +80,6 @@ td.float{
 td.variant{
     font-variant: small-caps;
 }
+td.lheight{
+    line-height: 50px;
+}
