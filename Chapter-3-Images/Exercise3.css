@@ -14,3 +14,6 @@ img {
 .filter3{
     filter: saturate(110%) brightness(95%) contrast(110%);
 }
+figure{
+    text-align: center;
+}
