@@ -4,36 +4,46 @@ body{
     width: 900px;
     margin: auto;
     font-size: 20px;
+    background-color: #f6f5f2;
+    color: #4f4e54;
 }
 h1{
     text-align: center;
     letter-spacing: 10px;
     font-family: 'Courier New', Courier, monospace;
+    color: #928456;
+    font-size: 55px;
 }
 h2 {
     display: flex;
     flex-direction: row;
     letter-spacing: 5px;
     font-family: 'Courier New', Courier, monospace;
+    color: #928456;
+    font-size: 35px;
 }
 h2:before,
         h2:after {
             content: "";
             flex: 1 1;
-            border-bottom: 2px solid #000;
+            border-bottom: 2px solid #9ba79d;
             margin: auto;
         }
 h3{
     text-align: center;
     letter-spacing: 2px;
     font-weight: lighter;
+    color: #846a56;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid black;
+    border: 7px solid #9ba79d;
   }
 .textcenter{
     text-align: center;
+}
+li{
+    padding-left: 15px;
 }
