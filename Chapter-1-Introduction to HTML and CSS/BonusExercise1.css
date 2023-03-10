@@ -1,26 +1,27 @@
 body{
-    background-color: #e7ecf7 ;
-    color: purple;
+    background-color: #e6e6e5;
+    color: #343e41;
     line-height: 30px;
 }
 
 code{
-    color: rgb(177, 5, 177);
-    background-color:rgb(204, 184, 212);
+    color: #e6e6e5;
+    background-color:#343e41;
     padding: 2px;
 }
 h1 {
-    background-color: #E5D1FA;
-    color: purple;
+    color: #343e41;
     padding: 10px 10px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
 }
 hr{
     height: 3px;
-    background-color: rgb(163, 0, 163);
+    background-color: #8d8c90;
 }
 table, th, td{
-    border: 1px solid purple;
-    border-radius: 5px;
+    border: 2px solid #8d8c90;
     width: 600px;
     margin-left: 50px;
     padding: 5px;
@@ -31,6 +32,8 @@ aside{
 }
 h2{
     margin-left: 50px;
+    color: #775c63;
+    font-size: 35px;
 }
 .comment{
     color: green;
@@ -82,4 +85,8 @@ td.variant{
 }
 td.lheight{
     line-height: 50px;
+}
+th{
+    color: #d2984a;
+    font-size: 20px;
 }
