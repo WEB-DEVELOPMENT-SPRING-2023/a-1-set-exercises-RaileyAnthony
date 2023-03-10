@@ -81,3 +81,19 @@ h3{
 span{
     padding-left: 20px;
 }
+.website {
+    background-color: #ac6283;
+    color: #f5f3e7;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 300px;
+    padding-top: 20px;
+    margin-left: 900px;
+}
+hr{
+    border: 3px solid #d26069;
+    border-radius: 10px;
+}
