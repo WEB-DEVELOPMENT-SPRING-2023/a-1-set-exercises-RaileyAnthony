@@ -23,17 +23,18 @@ hr{
 table, th, td{
     border: 2px solid #8d8c90;
     width: 600px;
-    margin-left: 50px;
+    margin-left: 60px;
     padding: 5px;
 }
 aside{
     float:right;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 h2{
-    margin-left: 50px;
+    margin-left: 60px;
     color: #775c63;
     font-size: 35px;
+    padding-left: 180px;
 }
 .comment{
     color: green;
