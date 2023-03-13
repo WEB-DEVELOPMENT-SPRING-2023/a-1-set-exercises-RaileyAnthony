@@ -25,6 +25,7 @@ table, th, td{
     width: 600px;
     margin-left: 60px;
     padding: 5px;
+    text-align: center;
 }
 aside{
     float:right;
