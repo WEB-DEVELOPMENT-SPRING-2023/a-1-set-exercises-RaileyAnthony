@@ -9,16 +9,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Petrol Calculator</h1>
-    <hr>
-    <form>
-        <h3>Cost of petrol per liter:</h3>
-        <input class="space" type="text" id="costPerLiter">
+    <h1>Petrol Calculator</h1> <!--h1 heading for the title of the website-->
+    <hr> <!--hr tag for separation of title and content -->
+    <form> <!--form tag for the use of text fields and buttons-->
+        <h3>Cost of petrol per liter:</h3> <!--h3 heading for the subheaders of the website-->
+        <input class="space" type="text" id="costPerLiter"> <!--Text field for users to input a petrol's cost per liter -->
         <h3>Number of liters purchased:</h3>
-        <input class="space" type="text" id="litersPurchased"><br><br><br>
-        <input class="button" type="button" onClick="calculate()" Value="Calculate">
+        <input class="space" type="text" id="litersPurchased"><br><br><br> <!--Text field for users to input number of liters purchased with multiple break lines for more space-->
+        <input class="button" type="button" onClick="calculate()" Value="Calculate"> <!--Button to calculate the petrol's cost per liter and number of liters purchased-->
     </form>
-    <p>Total Cost:
+    <p>Total Cost: <!--To display the result of the calculation-->
         <span id = "cost"></span>
     </p>
 </body>
