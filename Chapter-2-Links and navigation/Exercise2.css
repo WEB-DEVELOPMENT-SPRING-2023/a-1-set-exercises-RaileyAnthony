@@ -43,7 +43,7 @@ h2{
 body{
     background-color: #f5f3e7;
     font-size: 25px;
-    color: #ac6283;
+    color: #bd747d;
     padding: 5px;
     text-align: justify;
 }
@@ -62,9 +62,11 @@ dt{
     font-size: 30px;
     margin-left: 40px;
     font-weight: bold;
+    color: #96415c;
 }
 dd{
     margin: 40px;
+    margin-top: 25px;
 }
 p.margin{
     margin: 40px;
@@ -80,4 +82,7 @@ h3{
 }
 span{
     padding-left: 20px;
+}
+th{
+    color: #96415c;
 }
