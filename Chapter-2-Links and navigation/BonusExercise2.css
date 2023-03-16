@@ -43,11 +43,11 @@ h2{
 body{
     background-color: #f5f3e7;
     font-size: 25px;
-    color: #ac6283;
+    color: #bd747d;
     padding: 5px;
     text-align: justify;
 }
-.review1{
+#review1{
     border: 1px solid #96415c;
     border-radius: 10px;
     background-color: #96415c;
@@ -62,9 +62,11 @@ dt{
     font-size: 30px;
     margin-left: 40px;
     font-weight: bold;
+    color: #96415c;
 }
 dd{
     margin: 40px;
+    margin-top: 25px;
 }
 p.margin{
     margin: 40px;
@@ -81,19 +83,6 @@ h3{
 span{
     padding-left: 20px;
 }
-.website {
-    background-color: #ac6283;
-    color: #f5f3e7;
-    border-radius: 10px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    height: 45px;
-    width: 300px;
-    padding-top: 20px;
-    margin-left: 900px;
-}
-hr{
-    border: 3px solid #d26069;
-    border-radius: 10px;
+th{
+    color: #96415c;
 }
