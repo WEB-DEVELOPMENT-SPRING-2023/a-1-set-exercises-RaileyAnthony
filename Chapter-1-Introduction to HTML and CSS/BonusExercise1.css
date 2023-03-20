@@ -23,16 +23,16 @@ hr{
 table, th, td{
     border: 2px solid #8d8c90;
     width: 600px;
-    margin-left: 60px;
+    margin-left: 200px;
     padding: 5px;
     text-align: center;
 }
 aside{
     float:right;
-    margin-right: 60px;
+    margin-right: 200px;
 }
 h2{
-    margin-left: 60px;
+    margin-left: 200px;
     color: #775c63;
     font-size: 35px;
     padding-left: 180px;
