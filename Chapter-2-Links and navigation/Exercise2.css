@@ -47,7 +47,7 @@ body{
     padding: 5px;
     text-align: justify;
 }
-#review1{
+.review1{
     border: 1px solid #96415c;
     border-radius: 10px;
     background-color: #96415c;
