@@ -1,5 +1,4 @@
-a:visited, a:link, a:active
-{
+a:visited, a:link, a:active{
     text-decoration: none;
     margin-right: 100px;
     color:#f5ddce;
@@ -8,41 +7,46 @@ a:hover{
     color: #d1a181;
 }
 nav{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     padding: 15px;
     background-color: #96415c;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
 }
 table, th, td{
     border: 3px solid #96415c;
     border-radius: 5px;
-    width: 800px;
+    width: 1250px;
     padding: 8px;
+    margin: 50px;
     
 }
 
 h1.title{
-    font-size: 80px;
+    font-size: 85px;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:lighter;
     text-transform: uppercase;
     color: #d26069;
     letter-spacing: 15px;
-  
     margin: 0;
 }
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 45px;
-    letter-spacing: 3px;
-    color: #96415c;
+    font-size: 55px;
+    letter-spacing: 5px;
+    color: #f5f3e7;
     margin: 20px;
+    padding-left: 25px;
+    border: 1px solid #d26069;
+    background-color: #d26069;
+    border-radius: 5px;
 }
 body{
     background-color: #f5f3e7;
-    font-size: 25px;
+    font-size: 30px;
     color: #bd747d;
     padding: 5px;
     text-align: justify;
@@ -59,19 +63,16 @@ body{
     color: #e1969f;
 }
 dt{
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 40px;
     font-weight: bold;
     color: #96415c;
 }
 dd{
     margin: 40px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 p.margin{
-    margin: 40px;
-}
-table{
     margin: 40px;
 }
 p.mreview{
@@ -85,4 +86,18 @@ span{
 }
 th{
     color: #96415c;
+}
+th{
+    text-align: center;
+}
+.btn{
+    background-color: #96415c;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover{
+    background-color: #d26069;
+    color: #f5f3e7;
 }
