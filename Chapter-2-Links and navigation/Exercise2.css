@@ -93,11 +93,16 @@ th{
 .btn{
     background-color: #96415c;
     padding: 10px 25px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 800px;
 }
 .btn:hover{
     background-color: #d26069;
     color: #f5f3e7;
+}
+hr{
+    border: 3px solid #d26069;
+    border-radius: 10px;
+    margin-bottom: 25px;
 }
