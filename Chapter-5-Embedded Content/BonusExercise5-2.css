@@ -33,14 +33,14 @@ body{
     background: url("purplebg.jpg");
 }
 .column{
-    float:right;
+    float: right;
     width: 50%;
 }
 .tts{
     float: left;
     width: 200px;
     margin-left: 150px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 .ttst{
     width: 630px;
@@ -71,4 +71,7 @@ button:focus{
 button:hover{
     background-color: #a888bc;
     color: white;
+}
+#fish{
+    color: #a47fbb;
 }
