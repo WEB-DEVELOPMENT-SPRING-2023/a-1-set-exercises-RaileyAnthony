@@ -30,7 +30,7 @@ p{
 }
 body{
     text-align: center;
-    background: url("purplebgcopy.jpg");
+    background: url("purplebg.jpg");
 }
 .column{
     float:right;
@@ -41,6 +41,9 @@ body{
     width: 200px;
     margin-left: 150px;
     margin-top: 250px;
+}
+.ttst{
+    width: 630px;
 }
 textarea{
     border: 10px groove#a47fbb;
