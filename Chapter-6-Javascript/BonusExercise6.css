@@ -1,0 +1,20 @@
+.center{
+    text-align: center;
+}
+#RGBValue{
+    font-size: 40px;
+}
+.cbox{
+    margin-left: 350px;
+}
+.box{
+    background: purple;
+    width: 300px;
+    height: 280px;
+    padding-bottom: 50px;
+    margin: 50px;
+    float: left;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+}
