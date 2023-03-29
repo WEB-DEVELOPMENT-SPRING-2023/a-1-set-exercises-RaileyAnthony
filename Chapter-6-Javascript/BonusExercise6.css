@@ -17,7 +17,7 @@ h1{
     margin-top: 200px;
     margin-left: 40px;
 }
-#RGBValue{
+#colorDisplay{
     font-size: 75px;
     font-family:"Arial";
     color: #403159;
@@ -28,7 +28,7 @@ h1{
     margin-right: 45px;
     float: right;
 }
-.box{
+.square{
     background: white;
     width: 250px;
     height: 250px;

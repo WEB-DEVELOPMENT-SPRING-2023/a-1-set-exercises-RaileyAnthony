@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="BonusExercise6.css">
-    <script src="BonusExercise6.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div class="cbox">
-        <button class="box" id="1" onclick="answer()"></button>
-        <button class="box" id="2" onclick="answer()"></button>
-        <button class="box" id="3" onclick="answer()"></button>
-    </div>
     <div class="left">
         <h1>RGB COLOUR GUESSING GAME</h1>
-        <p id="RGBValue">(111, 222, 333)</p>
+        <span id="colorDisplay"></span><br>
         <p class="text">Which of the following is the given RGB value?</p>
+        <button id="reset">New Game</button>
     </div>
+    <span id="message"></span>
+    <div class="cbox">
+        <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+    </div>
+    <script src="BonusExercise6.js"></script>
 </body>
 </html>
