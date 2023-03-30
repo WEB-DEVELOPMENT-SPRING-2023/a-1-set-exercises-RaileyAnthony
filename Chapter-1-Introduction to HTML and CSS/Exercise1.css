@@ -47,3 +47,7 @@ h3{
 li{
     padding-left: 15px;
 }
+hr{
+    border: 1px solid #9ba79d;
+    margin-top: 30px;
+}
