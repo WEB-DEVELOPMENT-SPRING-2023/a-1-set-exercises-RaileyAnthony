@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="BonusExercise5-2.css">
+    <script src="BonusExercise5-2.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tts">
+        <p class="ttst">The Magical Floral Voice</p>
+        <textarea id="fish">Type Here...</textarea>
+        <button id="say">Say it</button>
+    </div>
+    <div class="column">
+        <p>Audio Sampler 2</p>
+        <button class="btn" onclick="sound10.play()">10.<br>A bit of a maverick<br>0.01</button>
+        <button class="btn" onclick="sound11.play()">11.<br>A trapped boy<br>0.01</button>
+        <button class="btn" onclick="sound12.play()">12.<br>Access to dixons<br>0.03</button>
+        <button class="btn" onclick="sound13.play()">13.<br>Annie Lennox<br>0.05</button>
+        <button class="btn" onclick="sound14.play()">14.<br>Aqua<br>0.01</button>
+        <button class="btn" onclick="sound15.play()">15.<br>Arm wrestling<br>0.01</button>
+        <button class="btn" onclick="sound16.play()">16.<br>Billwithers<br>0.04</button>
+        <button class="btn" onclick="sound17.play()">17.<br>Bangkok<br>0.01</button>
+        <button class="btn" onclick="sound18.play()">18.<br>Gadzooks<br>0.01</button>
+        <a href="BonusExercise5-2.html"><i class="arrow left"></i></a>
+    </div>
+    <script>
+        const fish = document.getElementById("fish");
+        const say = document.getElementById("say");
+        say.addEventListener("click", () => {
+            const utterance = new 
+            SpeechSynthesisUtterance(fish.value);
+            window.speechSynthesis.speak(utterance);
+        });
+    </script>
+</body>
+</html>
