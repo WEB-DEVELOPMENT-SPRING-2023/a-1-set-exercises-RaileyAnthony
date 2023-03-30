@@ -1,5 +1,5 @@
 body{
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f9f6f7;
     color: #846f92;
     margin: 0;
@@ -25,7 +25,7 @@ table, th,td{
 aside{
     float: right;
     margin-right: 400px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 th{
@@ -56,16 +56,19 @@ footer{
 button{
     font-size: 20px;
     padding: 5px;
-    margin-left: 15px;
-    width: 500px;
+    margin-right: 415px;
+    width: 150px;
     background-color:#9a84a9;
+    border: 2px solid #9a84a9;
     color: #f9f6f7;
-    border-radius: 5px;
+    border-radius: 3px;
+    float: right;
 }
 button:hover{
-    background-color: #4a3b60;
+    background-color: #f9f6f7;
     cursor: pointer;
     border: 2px solid #9a84a9;
+    color: #9a84a9;
 }
 li.none{
     display: inline;
@@ -88,6 +91,24 @@ nav{
 }
 a:hover{
     color: #9a84a9;
+}
+.des{
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+textarea{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    resize: none;
+    padding: 7px;
+    color: #4a3b60;
+}
+.adjust{
+    border-radius: 5px;
+    width: 150px;
+    color: #4a3b60;
 }
 
 
