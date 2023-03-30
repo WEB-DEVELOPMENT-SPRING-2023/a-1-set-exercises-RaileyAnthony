@@ -75,3 +75,15 @@ button:hover{
 #fish{
     color: #a47fbb;
 }
+.arrow{
+    border: groove #a47fbb;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.right{
+    transform: rotate(-45deg);
+}
+.left{
+    transform: rotate(135deg);
+}
