@@ -1,15 +1,15 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f6f7;
-    color: #846f92;
-    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Sets the whole website's font to Segoe UI.*/
+    background-color: #f9f6f7; /*Sets the website's background color to the specified hex color code.*/
+    color: #846f92; /*Sets the website's body text to the specified hex color code.*/
+    margin: 0; /*Removes whitespace around website*/
 }
 header{
-    line-height: 25px;
-    margin-left: 435px;
+    line-height: 25px; 
+    margin-left: 435px; /*Adjusts header to align with table contents.*/
 }
 h1{
-    font-size: 50px;
+    font-size: 50px; 
     color: #4a3b60;
 }
 h3{
@@ -18,13 +18,13 @@ h3{
 }
 table, th,td{
     border: 1px solid #4a3b60;
-    border-collapse: collapse;
+    border-collapse: collapse; /*Collapses borders into a single border*/
     margin: 15px;
     width: 500px;
 }
 aside{
-    float: right;
-    margin-right: 400px;
+    float: right; /*Adjusts content to move to the right side of the website.*/
+    margin-right: 400px; /*Adjusts content to align with main content.*/
     margin-top: 5px;
 }
 
@@ -71,15 +71,15 @@ button:hover{
     color: #9a84a9;
 }
 li.none{
-    display: inline;
+    display: inline; /*Displays list side-by-side.*/
 }
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
+    text-decoration: none; /*Removes the blue color and underline from link.*/
     color: white;
     font-size: 25px;
     margin-right: 100px;
-    cursor: pointer;
+    cursor: pointer; /*Transforms cursor into pointer when link is hovered.*/
     
 }
 nav{
@@ -106,7 +106,7 @@ textarea{
     color: #4a3b60;
 }
 .adjust{
-    border-radius: 5px;
+    border-radius: 3px;
     width: 150px;
     color: #4a3b60;
 }
