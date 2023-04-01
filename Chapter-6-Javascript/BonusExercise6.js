@@ -1,5 +1,5 @@
-const colorCodeContainer = document.getElementById("color-code");
-const optionContainer = document.getElementById("options-container");
+const rgbValueContainer = document.getElementById("rgb-value");
+const choicesContainer = document.getElementById("choices");
 const scoreContainer = document.getElementById("score");
 const livesContainer = document.getElementById("lives");
 var messageDisplay = document.getElementById("message")
@@ -7,7 +7,7 @@ let randomColor = null;
 let score = 0;
 let lives = 3;
 
-function generateRandomColorRGB() {
+function createRandomColors() {
   const r = Math.floor(Math.random() *256);
   const g = Math.floor(Math.random() *256);
   const b = Math.floor(Math.random() *256);
@@ -26,9 +26,9 @@ function decrementLife() {
   }
 }
 
-function validateResult(el) {
-  const selectedColor = el.target.style.backgroundColor;
-  if (selectedColor === randomColor) {
+function checkAnswer(input) {
+  const chosenColor = input.target.style.backgroundColor;
+  if (chosenColor === randomColor) {
     incrementScore();
     messageDisplay.textContent = "Correct!";
   } else {
@@ -41,19 +41,20 @@ function validateResult(el) {
 function startGame() {
   livesContainer.innerText = lives;
   scoreContainer.innerText = score;
-  optionContainer.innerHTML = null;
-  randomColor = generateRandomColorRGB();
-  colorCodeContainer.innerText = randomColor;
+  choicesContainer.innerHTML = null;
+  randomColor = createRandomColors();
+  rgbValueContainer.innerText = randomColor;
 
   const ansIndex = Math.floor(Math.random() *3);
 
-  for (let i = 0; i < 3; i++) {
-    const div = document.createElement("div");
-    div.addEventListener("click", validateResult);
-    div.style.backgroundColor =
-      i === ansIndex ? randomColor : generateRandomColorRGB();
-    optionContainer.append(div);
+  var i = 0;
+  while(i < 3){
+     i++
+     const div = document.createElement("div");
+      div.addEventListener("click", checkAnswer);
+      div.style.backgroundColor =
+        i === ansIndex ? randomColor : createRandomColors();
+      choicesContainer.append(div);
   }
 }
-
-window.addEventListener("load", () => startGame());
+startGame();
