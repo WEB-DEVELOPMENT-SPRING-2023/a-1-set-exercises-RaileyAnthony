@@ -8,18 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="left">
-        <h1>RGB COLOUR GUESSING GAME</h1>
-        <span id="colorDisplay"></span><br>
-        <p class="text">Which of the following is the given RGB value?</p>
-        <button id="reset">New Game</button>
-    </div>
-    <span id="message"></span>
-    <div class="cbox">
-        <div class="square"></div>
-       <div class="square"></div>
-       <div class="square"></div>
-    </div>
-    <script src="BonusExercise6.js"></script>
+  <h1>rgb color guessing game</h1>
+  <div class="combine">
+    <p>Lives: <span id="lives"></span></p>
+    <p><span id="message"></span></p>
+    <p>Points: <span id="score"></span></p>
+  </div>
+
+  <div class="center">
+    <span id="color-code"></span><br>
+    <p class="text">Which of the following is the given hex color code?</p>
+  </div>
+
+  <div class="wrapper">
+    <div id="options-container"></div>
+  </div>
+  <script src="BonusExercise6.js"></script>
 </body>
 </html>
