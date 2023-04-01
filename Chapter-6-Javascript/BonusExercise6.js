@@ -45,7 +45,7 @@ function startGame() {
   randomColor = createRandomColors();
   rgbValueContainer.innerText = randomColor;
 
-  const ansIndex = Math.floor(Math.random() *3);
+  const resAppendix = Math.floor(Math.random() *3);
 
   var i = 0;
   while(i < 3){
@@ -53,7 +53,7 @@ function startGame() {
      const div = document.createElement("div");
       div.addEventListener("click", checkAnswer);
       div.style.backgroundColor =
-        i === ansIndex ? randomColor : createRandomColors();
+        i === resAppendix ? randomColor : createRandomColors();
       choicesContainer.append(div);
   }
 }
