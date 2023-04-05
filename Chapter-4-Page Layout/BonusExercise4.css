@@ -4,24 +4,29 @@ body{
     color: #846f92; /*Sets the website's body text to the specified hex color code.*/
     margin: 0; /*Removes whitespace around website*/
 }
+
 header{
     line-height: 25px; 
     margin-left: 435px; /*Adjusts header to align with table contents.*/
 }
+
 h1{
     font-size: 50px; 
     color: #4a3b60;
 }
+
 h3{
     font-size: 30px;
     color: #846f92;
 }
+
 table, th,td{
     border: 1px solid #4a3b60;
     border-collapse: collapse; /*Collapses borders into a single border*/
     margin: 15px;
     width: 500px;
 }
+
 aside{
     float: right; /*Adjusts content to move to the right side of the website.*/
     margin-right: 400px; /*Adjusts content to align with main content.*/
@@ -34,18 +39,22 @@ th{
     color: #f9f6f7;
     background-color: #9a84a9;
 }
+
 td{
     padding: 7px;
     font-size: 20px;
 }
+
 table{
     border: 4px solid #4a3b60;
 }
+
 main{
     margin-left: 420px;
     margin-top: 32px;
     margin-bottom: 30px;
 }
+
 footer{
     background-color: #4a3b60;
     text-align: center;
@@ -53,6 +62,7 @@ footer{
     color: #f9f6f7;
     padding: 5px;
 }
+
 button{
     font-size: 20px;
     padding: 5px;
@@ -64,15 +74,18 @@ button{
     border-radius: 3px;
     float: right;
 }
+
 button:hover{
     background-color: #f9f6f7;
     cursor: pointer;
     border: 2px solid #9a84a9;
     color: #9a84a9;
 }
+
 li.none{
     display: inline; /*Displays list side-by-side.*/
 }
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none; /*Removes the blue color and underline from link.*/
@@ -82,6 +95,7 @@ a:hover, a:visited, a:link, a:active
     cursor: pointer; /*Transforms cursor into pointer when link is hovered.*/
     
 }
+
 nav{
     background-color: #4a3b60;
     text-align: center;
@@ -89,14 +103,17 @@ nav{
     height: 40px;
     margin-left: 435px;
 }
+
 a:hover{
     color: #9a84a9;
 }
+
 .des{
     font-size: 25px;
     margin-left: 15px;
     font-weight: bold;
 }
+
 textarea{
     border-radius: 50%;
     width: 15px;
@@ -105,6 +122,7 @@ textarea{
     padding: 7px;
     color: #4a3b60;
 }
+
 .adjust{
     border-radius: 3px;
     width: 150px;
