@@ -11,14 +11,17 @@
     margin-right: 30px;
     line-height: 50px;
 }
+
 .btn:focus{
     background-color: #a888bc;
     color: white;
 }
+
 .btn:hover{
     background-color: #a888bc;
     color: white;
 }
+
 p{
     text-align: center;
     background-color: #f8f7f3;
@@ -28,23 +31,28 @@ p{
     margin-top: 50px;
     color: #a47fbb;
 }
+
 body{
     text-align: center;
     background: url("purplebg.jpg");
 }
+
 .column{
     float: right;
     width: 50%;
 }
+
 .tts{
     float: left;
     width: 200px;
     margin-left: 150px;
     margin-top: 150px;
 }
+
 .ttst{
     width: 630px;
 }
+
 textarea{
     border: 10px groove#a47fbb;
     border-radius: 5px;
@@ -53,8 +61,9 @@ textarea{
     font-size: 25px;
     padding-left: 20px;
     padding-top: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 button{
     width: 643px;
     height: 70px;
@@ -64,26 +73,32 @@ button{
     font-size: 25px;
     font-weight: bold;
 }
+
 button:focus{
     background-color: #a888bc;
     color: white;
 }
+
 button:hover{
     background-color: #a888bc;
     color: white;
 }
+
 #fish{
     color: #a47fbb;
 }
+
 .arrow{
     border: groove #a47fbb;
     border-width: 0 10px 10px 0;
     display: inline-block;
     padding: 10px;
 }
+
 .right{
     transform: rotate(-45deg);
 }
+
 .left{
     transform: rotate(135deg);
 }
