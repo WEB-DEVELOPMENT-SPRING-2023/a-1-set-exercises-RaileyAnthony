@@ -3,9 +3,11 @@ a:visited, a:link, a:active{
     margin-right: 100px;
     color:#f5ddce;
 }
+
 a:hover{
     color: #d1a181;
 }
+
 nav{
     font-size: 35px;
     text-align: center;
@@ -14,13 +16,13 @@ nav{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
 }
+
 table, th, td{
     border: 3px solid #96415c;
     border-radius: 5px;
     width: 1250px;
     padding: 8px;
-    margin: 50px;
-    
+    margin: 50px;  
 }
 
 h1.title{
@@ -33,6 +35,7 @@ h1.title{
     letter-spacing: 15px;
     margin: 0;
 }
+
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 55px;
@@ -44,6 +47,7 @@ h2{
     background-color: #d26069;
     border-radius: 5px;
 }
+
 body{
     background-color: #f5f3e7;
     font-size: 30px;
@@ -51,6 +55,7 @@ body{
     padding: 5px;
     text-align: justify;
 }
+
 .review1{
     border: 1px solid #96415c;
     border-radius: 10px;
@@ -59,37 +64,47 @@ body{
     padding: 10px;
     margin: 40px;
 }
+
 .checked {
     color: #e1969f;
 }
+
 dt{
     font-size: 35px;
     margin-left: 40px;
     font-weight: bold;
     color: #96415c;
 }
+
 dd{
     margin: 40px;
     margin-top: 15px;
 }
+
 p.margin{
     margin: 40px;
 }
+
 p.mreview{
     margin: 20px;
 }
+
 h3{
     margin: 20px;
 }
+
 span{
     padding-left: 20px;
 }
+
 th{
     color: #96415c;
 }
+
 th{
     text-align: center;
 }
+
 .btn{
     background-color: #96415c;
     padding: 10px 25px;
@@ -97,10 +112,12 @@ th{
     text-align: center;
     margin-left: 800px;
 }
+
 .btn:hover{
     background-color: #d26069;
     color: #f5f3e7;
 }
+
 hr{
     border: 3px solid #d26069;
     border-radius: 10px;
