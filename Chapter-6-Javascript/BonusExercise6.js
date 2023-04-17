@@ -16,7 +16,7 @@ function createRandomColors() { /*Function to generate random RGB colors.*/
   return `rgb(${r}, ${g}, ${b})`;
 }
 
-function replay(){
+function replay(){ /*Function to restart the page when button is clicked.*/
   location.reload();
 }
 
@@ -52,7 +52,7 @@ function play() {
   randomColor = createRandomColors();
   rgbValueContainer.innerText = randomColor;
 
-  const resAppendix = Math.floor(Math.random() *3);
+  const resAppendix = Math.floor(Math.random() *3); /*Displays 3 random colors with one correct answer.*/
 
   var i = 0; /*While loop to generate the color choices and validates the chosen answer by calling the checkAnswer function*/
   while(i < 3){
