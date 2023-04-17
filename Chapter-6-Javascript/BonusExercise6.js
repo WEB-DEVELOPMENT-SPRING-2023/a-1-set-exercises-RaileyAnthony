@@ -2,7 +2,9 @@ const rgbValueContainer = document.getElementById("rgb-value"); /*Grabs the rgb-
 const choicesContainer = document.getElementById("choices");
 const scoreContainer = document.getElementById("score");
 const livesContainer = document.getElementById("lives");
-var messageDisplay = document.getElementById("message")
+var messageDisplay = document.getElementById("message");
+var gameOverText = document.getElementById("GameOverText");
+var totalScore = document.getElementById("TotalScore");
 let randomColor = null; /*sets the variable to unknown or empty.*/
 let score = 0; /*sets the variable to 0.*/
 let lives = 3; /*sets the variable to 3.*/
@@ -14,15 +16,20 @@ function createRandomColors() { /*Function to generate random RGB colors.*/
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+function replay(){
+  location.reload();
+}
+
 function incrementScore() { /*Function to add 1 point to a player's score if they answer correctly.*/
   score += 1;
   scoreContainer.innerText = score;
 }
+
 function decrementLife() { /*Function to remove one life from the player if they answered incorrectly. */
   lives--
   if(lives <= 0) { /*Ends the program if player runs out of lives and displays a message showing the player's final score and the option to play again.*/
-    alert("Game over!\nYour final score is: " + score + "\nPress ok to play again.");
-    document.location.reload(); /*Reloads the page*/
+    document.getElementById('GameOver').style.display = 'block';
+    totalScore.innerHTML = "Your total score is " + score + " point(s)!";
   }
 }
 
