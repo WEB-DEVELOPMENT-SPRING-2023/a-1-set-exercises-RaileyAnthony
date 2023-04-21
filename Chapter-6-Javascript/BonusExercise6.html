@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" href="BonusExercise6.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-  <h1>rgb color guessing game</h1> <!--Title of the game.-->
-  <div class="combine"> <!--Div to wrap elements.-->
-    <p>Lives<br><span id="lives"></span></p> <!--Displays the player's lives.-->
-    <p><span id="message"></span></p> <!--Displays whether the chosen color is correct or incorrrect.-->
-    <p>Score<br> <span id="score"></span></p> <!--Displays the player's score.-->
-  </div>
-  <div class="center"> <!--Div to center elements.-->
-    <span id="rgb-value"></span><br> <!--Displays the randomized RGB color.-->
-    <p class="text">Which of the following is the given RGB color value?</p> <!--Text to tell user to choose from the given colors.-->
-  </div>
-  <div class="wrapper"> <!--Div to wrap the choices.-->
-    <div id="choices"></div> <!--Displays the three colors the player can choose from.-->
-  </div>
-  <div id="GameOver"> <!--Substitution for alert method to display player's final score and button to play again when player loses all lives.-->
-    <div id="GameOverDisplay">
-      <h1 id="GameOverText">Game Over!</h1>
-      <h2 id="TotalScore"></h2>
-      <div id="Replay" class="button" onclick="replay()">Play Again?</div>
+  </head>
+  <body>
+    <h1>rgb color guessing game</h1> <!--Title of the game.-->
+    <div class="combine"> <!--Div to wrap elements.-->
+      <p>Lives<br><span id="lives"></span></p> <!--Displays the player's lives.-->
+      <p><span id="message"></span></p> <!--Displays whether the chosen color is correct or incorrrect.-->
+      <p>Score<br> <span id="score"></span></p> <!--Displays the player's score.-->
     </div>
-  </div>
-  <script src="BonusExercise6.js"></script>
-</body>
+    <div class="center"> <!--Div to center elements.-->
+      <span id="rgb-value"></span><br> <!--Displays the randomized RGB color.-->
+      <p class="text">Which of the following is the given RGB color value?</p> <!--Text to tell user to choose from the given colors.-->
+    </div>
+    <div class="wrapper"> <!--Div to wrap the choices.-->
+      <div id="choices"></div> <!--Displays the three colors the player can choose from.-->
+    </div>
+    <div id="GameOver"> <!--Substitution for alert method to display player's final score and button to play again when player loses all lives.-->
+      <div id="GameOverDisplay">
+        <h1 id="GameOverText">Game Over!</h1>
+        <h2 id="TotalScore"></h2>
+        <div id="Replay" class="button" onclick="replay()">Play Again?</div>
+      </div>
+    </div>
+    <script src="BonusExercise6.js"></script>
+ </body>
 </html>
